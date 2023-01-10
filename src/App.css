@@ -1,7 +1,11 @@
 .App {
   text-align: center;
 }
-
+:root{
+  --primary: #8e44ad;
+  --primary-light: #9b59b6;
+  --accent: #f1c40f;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -36,3 +40,17 @@
     transform: rotate(360deg);
   }
 }
+@font-face {
+  font-family: 'Roboto';
+  src: url('/public/fonts/Roboto-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('/public/fonts/BebasNeue-Regular.ttf');
+}
+*{
+  padding: 0;
+  margin: 0;
+}
+

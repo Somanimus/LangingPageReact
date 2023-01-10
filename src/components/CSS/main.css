@@ -1,0 +1,270 @@
+@font-face {
+    font-family: 'Roboto Light';
+    src: url('/public/fonts/Roboto-Light.ttf');
+}
+.two-third{
+    height: 66vh;
+}
+.descr{
+    font-family: 'Roboto Light';
+    font-family: 11px;
+}
+.pic-text-section{
+display: flex;
+height: fit-content;
+}
+.getting-started{
+    height: fit-content;
+}
+.pic-text-section img{
+    width: 50%;
+}
+.text-container{
+    width: 30%;
+    margin: auto;
+    display: block;
+    margin-top: 0;
+    text-align: start;
+}
+.text-container .descr , .text-container .bold-title{
+    margin-bottom: 20px;
+}
+.bold-title{
+    color: var(--primary-light);
+}
+.getting-started{
+    height: fit-content;
+    background-color: var(--primary);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+img{
+    object-fit: cover;
+}
+.gs-steps{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin: 3em 0 0 0;
+}
+.gs-txt-box{
+    margin-top: 20px;
+}
+
+.gs-steps div{
+    width: 23%;
+}
+.headline{
+    font-size: 36px;
+    color: var(--primary);
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.headline-section{
+    background-image: url(/public/low-poly-grid-haikei.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+.gs-redirect{
+    display: none;
+}
+.play-button{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: var(--accent);
+    border: none;
+}
+main{
+        font-family: 'Roboto';
+}
+.content-box{
+    width: 60%;
+    display: flex;
+    margin: auto;
+
+}
+.cb-column{
+    width: 50%;
+    justify-content: space-around;
+    height: 66vh;
+    flex-direction: column;
+    align-items: flex-start;
+    display: flex;
+    font-size: 24px;
+    color: white;
+}
+.mobile-app-section{
+    height: 80vh;
+    margin-bottom: 80px;
+}
+.region-select{
+    font-size: 36px;
+    margin: 50px 0 50px 0;
+    color: var(--primary);
+}
+.pic-hall{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.pic-hall div{
+width: 23%;
+}
+.phone-pic{
+    width: 100%;
+}
+.content-box a{
+    color: var(--accent);
+}
+.mid-box{
+    display: flex;
+    align-items: center;
+}
+.mid-box a{
+    text-align: center;
+    margin-left: 50px;
+    font-size: 24px;
+}
+.cb-column h1{
+    font-size: 38px;
+    text-align: start;
+}
+svg path{
+    color: white;
+}
+.box-flex{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+@media screen and (max-width: 1000px){
+    .pic-hall .descr{
+        font-size: 14px;
+    }
+    .gs-steps .descr{
+        font-size:14px ;
+    }
+    .cb-column h1{
+        margin: auto;
+        margin-top:0 ;
+        margin-bottom: 0;
+    }
+    .pic-hall{
+        width: 95%;
+    }
+    .mobile-app-section{
+        height: fit-content;
+    }
+    .content-box{
+        width: 100%;
+    }
+    .cb-column h1{
+        text-align: center;
+    }
+.empty{
+    display: none;
+
+}
+.cb-column{
+    width: 100%;
+}
+    .mid-box{
+        flex-direction: column;
+        align-self: center;
+    }  
+    .box-flex{
+        margin: auto;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+@media screen and (max-width: 800px) {
+    .mid-box a{
+        margin: 0;
+        margin-top: 20px;
+    }
+  .pic-hall{
+    height: fit-content;
+    justify-content: none;
+    align-items: center;
+    flex-wrap: wrap;
+ }
+ .gs-steps{
+    flex-wrap: wrap;
+ }
+ .gs-steps div{
+    width: 40%;
+    margin-bottom: 5em;
+ }
+ .mobile-app-section{
+    height: fit-content;
+ }
+ .pic-hall div{
+    width: 45%;
+    height: fit-content;
+    margin: auto;
+ }
+ .pic-hall p{
+    width: 90%;
+    margin: auto;
+ }
+ .pic-hall .descr{
+    font-size: 18px;
+ }
+ .pic-text-section{
+    display: flex;
+    flex-direction: column;
+    
+    }
+ .pic-text-section img{
+    width: 100%;
+ }
+ .pic-text-section .text-container{
+    width: 90%;
+ }
+}
+@media screen  and (max-width: 500px){
+    .content-box{
+        width: 100%;
+    }
+    .gs-steps{
+        display: none;
+    }
+   .cb-column h1{
+        font-size: 32px;
+        text-align: center;
+    }
+
+ .mobile-app-section{
+    height: fit-content;
+ }
+ .pic-hall div{
+    width: 90%;
+    height: fit-content;
+ }
+ .pic-text-section{
+    display: flex;
+    flex-direction: column;
+ }
+ .gs-redirect{
+    display: block;
+    margin: 50px 0 50px 0;
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 20px;
+ }
+ .getting-started{
+    padding: 0;
+ }
+}
