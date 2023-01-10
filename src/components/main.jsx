@@ -28,22 +28,22 @@ const Main = () => {
                 </div>
                 <div className='pic-hall'>
                     <div>
-                        <img className='phone-pic' src="/send.jpg" alt="" />
+                        <img className='phone-pic?raw=true' src="/send.jpg?raw=true" alt="" />
                         <p className='title'>Lorem ipsum dolor sit amet consectetur.</p>
                         <p className='descr'>world Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, cupiditate.</p>
                     </div>
                     <div>
-                        <img src="/watermarked.jpg" alt="" className="phone-pic" />
+                        <img src="/watermarked.jpg?raw=true" alt="" className="phone-pic" />
                         <p className='title'>Lorem ipsum dolor sit amet consectetur.</p>
                         <p className='descr'>world Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, cupiditate.</p>
                     </div>
                     <div>
-                        <img src="/receive.jpg" alt="" className="phone-pic" />
+                        <img src="/receive.jpg?raw=true" alt="" className="phone-pic" />
                         <p className='title'>Lorem ipsum dolor sit amet consectetur.</p>
                         <p className='descr'>world Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, cupiditate.</p>
                     </div>
                     <div>
-                        <img src="/hold.jpg" alt="" className="phone-pic" />
+                        <img src="/hold.jpg?raw=true" alt="" className="phone-pic" />
                         <p className='title'>Lorem ipsum dolor sit amet consectetur.</p>
                         <p className='descr'>world Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, cupiditate.</p>
                     </div>
@@ -51,7 +51,7 @@ const Main = () => {
 
             </section>
             <section className='pic-text-section'> 
-                <img src="/credit-cards.jpg" alt="" />
+                <img src="/credit-cards.jpg?raw=true" alt="" />
                 <div className='text-container'>
                     <p className="headline">Moving and living abroad just got simpler</p>
 
@@ -82,7 +82,7 @@ const Main = () => {
                     <p className="descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, velit cumque illo molestiae voluptates amet molestias debitis praesentium officiis id, ad nisi! Voluptatum autem minima dignissimos adipisci distinctio iure illo.</p>
                 </div>
 
-                <img src="/online-shopping.jpg" alt="" />
+                <img src="/online-shopping.jpg?raw=true" alt="" />
             </section>
                          <section className='pic-text-section'> 
                 <div className='text-container'>
@@ -98,10 +98,10 @@ const Main = () => {
                     <p className="descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, velit cumque illo molestiae voluptates amet molestias debitis praesentium officiis id, ad nisi! Voluptatum autem minima dignissimos adipisci distinctio iure illo.</p>
                 </div>
 
-                <img src="/banking.jpg" alt="" />
+                <img src="/banking.jpg?raw=true" alt="" />
             </section>
             <section className='pic-text-section'> 
-                <img src="/room.jpg" alt="" />
+                <img src="/room.jpg?raw=true" alt="" />
                 <div className='text-container'>
                     <p className="headline">Take the stress out of managing property</p>
 
