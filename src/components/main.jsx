@@ -1,6 +1,14 @@
 import React from 'react';
 import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
 import './CSS/main.css'
+import send from '../pics/send.jpg'
+import waterMarked from '../pics/watermarkedNot.jpg'
+import receive from '../pics/receive.jpg'
+import hold from '../pics/hold.jpg'
+import creditCards from '../pics/credit-cards.jpg'
+import onlineShopping from '../pics/online-shopping.jpg'
+import banking from '../pics/banking.jpg'
+import room from '../pics/room.jpg'
 import PlayArrowIcon from '@mui/icons-material/PlayArrow';
 
 const Main = () => {
@@ -28,22 +36,22 @@ const Main = () => {
                 </div>
                 <div className='pic-hall'>
                     <div>
-                        <img className='phone-pic?raw=true' src="/send.jpg?raw=true" alt="" />
+                        <img className='phone-pic' src={send} alt="" />
                         <p className='title'>Lorem ipsum dolor sit amet consectetur.</p>
                         <p className='descr'>world Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, cupiditate.</p>
                     </div>
                     <div>
-                        <img src="/watermarked.jpg?raw=true" alt="" className="phone-pic" />
+                        <img src={waterMarked} alt="" className="phone-pic" />
                         <p className='title'>Lorem ipsum dolor sit amet consectetur.</p>
                         <p className='descr'>world Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, cupiditate.</p>
                     </div>
                     <div>
-                        <img src="/receive.jpg?raw=true" alt="" className="phone-pic" />
+                        <img src={receive} alt="" className="phone-pic" />
                         <p className='title'>Lorem ipsum dolor sit amet consectetur.</p>
                         <p className='descr'>world Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, cupiditate.</p>
                     </div>
                     <div>
-                        <img src="/hold.jpg?raw=true" alt="" className="phone-pic" />
+                        <img src={hold} alt="" className="phone-pic" />
                         <p className='title'>Lorem ipsum dolor sit amet consectetur.</p>
                         <p className='descr'>world Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, cupiditate.</p>
                     </div>
@@ -51,7 +59,7 @@ const Main = () => {
 
             </section>
             <section className='pic-text-section'> 
-                <img src="/credit-cards.jpg?raw=true" alt="" />
+                <img src={creditCards} alt="" />
                 <div className='text-container'>
                     <p className="headline">Moving and living abroad just got simpler</p>
 
@@ -82,7 +90,7 @@ const Main = () => {
                     <p className="descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, velit cumque illo molestiae voluptates amet molestias debitis praesentium officiis id, ad nisi! Voluptatum autem minima dignissimos adipisci distinctio iure illo.</p>
                 </div>
 
-                <img src="/online-shopping.jpg?raw=true" alt="" />
+                <img src={onlineShopping} alt="" />
             </section>
                          <section className='pic-text-section'> 
                 <div className='text-container'>
@@ -98,10 +106,10 @@ const Main = () => {
                     <p className="descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, velit cumque illo molestiae voluptates amet molestias debitis praesentium officiis id, ad nisi! Voluptatum autem minima dignissimos adipisci distinctio iure illo.</p>
                 </div>
 
-                <img src="/banking.jpg?raw=true" alt="" />
+                <img src={banking} alt="" />
             </section>
             <section className='pic-text-section'> 
-                <img src="/room.jpg?raw=true" alt="" />
+                <img src={room} alt="" />
                 <div className='text-container'>
                     <p className="headline">Take the stress out of managing property</p>
 
