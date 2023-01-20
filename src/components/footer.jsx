@@ -46,7 +46,7 @@ const Footer = () => {
             </div>
             </div>
             <div className="copyright">
-                <div className="logo"><a href="http://" target="_blank" rel="noopener noreferrer">KASSA24</a></div>
+                <div className="logo"><a href="http://" target="_blank" rel="noopener noreferrer">MyMia</a></div>
             </div>
         </footer>
    );
