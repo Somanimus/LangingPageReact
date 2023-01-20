@@ -9,37 +9,37 @@ const Footer = () => {
         <footer>
             <div className="nav-container">
             <div className="footer-columns">
-                <h3 className="title">Company and team</h3>
-                <a href="http://" target="_blank" rel="noopener noreferrer">Company and team</a>
-                <a href="http://" target="_blank" rel="noopener noreferrer">News and Blog</a>
-                <a href="http://" target="_blank" rel="noopener noreferrer">Press</a>
-                <a href="http://" target="_blank" rel="noopener noreferrer">Careers</a>
-                <a href="http://" target="_blank" rel="noopener noreferrer">Affiliates and partnerships</a>
-                <a href="http://" target="_blank" rel="noopener noreferrer">Modern slavery statement</a>
-                <a href="http://" target="_blank" rel="noopener noreferrer">Business</a>
-                <a href="http://" target="_blank" rel="noopener noreferrer">Investor Relations</a>
-                <a href="http://" target="_blank" rel="noopener noreferrer">Roadmap</a>
+                <h3 className="title">Компания и наша команда</h3>
+                <a href="http://" target="_blank" rel="noopener noreferrer">Компания и наша команда</a>
+                <a href="http://" target="_blank" rel="noopener noreferrer">Новости и блог</a>
+                <a href="http://" target="_blank" rel="noopener noreferrer">Пресса о нас</a>
+                <a href="http://" target="_blank" rel="noopener noreferrer">Вакансии</a>
+                <a href="http://" target="_blank" rel="noopener noreferrer">Партнеры и сотрудничество</a>
+                <a href="http://" target="_blank" rel="noopener noreferrer">Положение по борьбе со современным рабством</a>
+                <a href="http://" target="_blank" rel="noopener noreferrer">MyMia для бизнеса</a>
+                <a href="http://" target="_blank" rel="noopener noreferrer">Связь с инвесторами</a>
+                <a href="http://" target="_blank" rel="noopener noreferrer">Дорожная карта нашей миссии</a>
             </div>
             <div className="footer-columns">
-                <h3 className="title">Help and support</h3>
-                <a href="http://" target="_blank" rel="noopener noreferrer">Help center</a>
-                <a href="http://" target="_blank" rel="noopener noreferrer">Mid-market rate</a>
-                <a href="http://" target="_blank" rel="noopener noreferrer">Service status</a>
+                <h3 className="title">Служба поддержки клиентов</h3>
+                <a href="http://" target="_blank" rel="noopener noreferrer">Центр поддержки</a>
+                <a href="http://" target="_blank" rel="noopener noreferrer">Среднерыночный курс</a>
+                <a href="http://" target="_blank" rel="noopener noreferrer">Статус услуги</a>
             </div>
             <div className="footer-columns">
-                <h3 className="title">learn more</h3>
-                <a href="http://" target="_blank" rel="noopener noreferrer">International Money transfer</a>
-                <a href="http://" target="_blank" rel="noopener noreferrer">Swift/Codes</a>
-                <a href="http://" target="_blank" rel="noopener noreferrer">Currency Converter</a>
-                <a href="http://" target="_blank" rel="noopener noreferrer">IBAN codes</a>
-                <a href="http://" target="_blank" rel="noopener noreferrer">Rate alerts</a>
-                <a href="http://" target="_blank" rel="noopener noreferrer">Compare exchange rates</a>
-                <a href="http://" target="_blank" rel="noopener noreferrer">Security</a>
-                <a href="http://" target="_blank" rel="noopener noreferrer">Invoice generator</a>
-                <a href="http://" target="_blank" rel="noopener noreferrer">Business calculators</a>
+                <h3 className="title">Подробнее</h3>
+                <a href="http://" target="_blank" rel="noopener noreferrer">Международные переводы</a>
+                <a href="http://" target="_blank" rel="noopener noreferrer">Swift/BIC коды</a>
+                <a href="http://" target="_blank" rel="noopener noreferrer">Конвертер валют</a>
+                <a href="http://" target="_blank" rel="noopener noreferrer">коды IBAN</a>
+                <a href="http://" target="_blank" rel="noopener noreferrer">Оповещeния об изменении курса валют</a>
+                <a href="http://" target="_blank" rel="noopener noreferrer">Сравнить курсы валют</a>
+                <a href="http://" target="_blank" rel="noopener noreferrer">Безопасность</a>
+                <a href="http://" target="_blank" rel="noopener noreferrer">Генератор счетов-фактур</a>
+                <a href="http://" target="_blank" rel="noopener noreferrer">Business Calculators</a>
             </div>
             <div className="socials ">
-                <h3 className="title">Follow us</h3>
+                <h3 className="title">Мы в социальных сетях</h3>
                 <a href="http://" target="_blank" rel="noopener noreferrer"> <InstagramIcon/></a>
                 <a href="http://" target="_blank" rel="noopener noreferrer"> <TwitterIcon/></a>
                 <a href="http://" target="_blank" rel="noopener noreferrer"> <FacebookIcon/></a>

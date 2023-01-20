@@ -7,8 +7,9 @@
 }
 .descr{
     font-family: 'Roboto Light';
-    font-family: 11px;
+    font-size: 0.85em;
 }
+
 .pic-text-section{
 display: flex;
 height: fit-content;
@@ -50,6 +51,9 @@ img{
     width: 90%;
     justify-content: space-between;
     margin: 3em 0 0 0;
+}
+.gs-steps .title{
+    height: 70px;
 }
 .gs-txt-box{
     margin-top: 20px;
@@ -135,8 +139,16 @@ width: 23%;
     font-size: 24px;
 }
 .cb-column h1{
-    font-size: 38px;
+    font-size: 2em;
+    width: 20ch;
     text-align: start;
+}
+
+.undertext-item p, .undertext-item a{
+    font-size:0.85em;
+}
+.undertext-item{
+   width: 25ch; 
 }
 svg path{
     color: white;
@@ -144,7 +156,7 @@ svg path{
 .box-flex{
     display: flex;
     justify-content: space-between;
-    width: 70%;
+    width: 100%;
 }
 @media screen and (max-width: 1000px){
     .pic-hall .descr{
@@ -218,7 +230,7 @@ svg path{
     margin: auto;
  }
  .pic-hall .descr{
-    font-size: 18px;
+    font-size: 0.75em;
  }
  .pic-text-section{
     display: flex;

@@ -47,43 +47,43 @@ const Header = () => {
             <div className="logo"> <a href="http://" target="_blank" rel="noopener noreferrer">KASSA24</a> </div>
             <ul className='public-nav box-left'>
                 <li>
-                    <a href="http://" target="_blank" rel="noopener noreferrer" className='active left-link'>Personal</a>
+                    <a href="http://" target="_blank" rel="noopener noreferrer" className='active left-link'>Частный счет</a>
                 </li>
-                <li><a href="http://" target="_blank" rel="noopener noreferrer">Business</a>
+                <li><a href="http://" target="_blank" rel="noopener noreferrer">Бизнес</a>
                 </li>
             </ul>
 
             <ul className='public-nav box-middle'>
                 <li className='dropdown'>
-                   <p>Features <ArrowDropDown font-size="medium"/> </p>
+                   <p>Функции <ArrowDropDown font-size="medium"/> </p>
                     <ul className='dropdown-content'>
-                        <p>height</p>
-                        <p>width    </p>
+                        <p>мультивалютный счет</p>
+                        <p>переводы крупных сум</p>
                     </ul>
  
                 </li>
                 <li>
-                    <a href="http://" target="_blank" rel="noopener noreferrer">Pricing</a>
+                    <a href="http://" target="_blank" rel="noopener noreferrer">Цены</a>
                 </li>
                 <li>
-                    <a href="http://" target="_blank" rel="noopener noreferrer">Help</a>
+                    <a href="http://" target="_blank" rel="noopener noreferrer">Помощь</a>
                 </li>
                 <li className='dropdown'>
                     <ul className="dropdown-content">
-                        <p>English</p>
-                        <p>Russian</p>
-                        <p>Kyrgyz</p>
+                        <p>Английский</p>
+                        <p>Русский</p>
+                        <p>Кыргызский</p>
                     </ul>
-                    <p><LanguageIcon fontSize="small"/>Language <ArrowDropDown/> </p>
+                    <p><LanguageIcon fontSize="small"/>Язык <ArrowDropDown/> </p>
                 </li>
             </ul>
 
             <ul className='public-nav box-right'>
                 <li className='log-in'>
-                    <a href="http://" target="_blank" rel="noopener noreferrer">Log in</a>
+                    <a href="http://" target="_blank" rel="noopener noreferrer">Войти</a>
                 </li>
                 <li className='register'>
-                    <a href="http://" target="_blank" rel="noopener noreferrer" className='link-button'> Register</a>
+                    <a href="http://" target="_blank" rel="noopener noreferrer" className='link-button'>Зарегистрироваться</a>
                 </li>
             </ul>
 

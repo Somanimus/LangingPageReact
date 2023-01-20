@@ -9,12 +9,16 @@ footer{
 
 }
 .nav-container{
-    width: 50%;
+    width: 60%;
     display: flex;
     justify-content: space-between;
     margin: auto;
     align-items: flex-start;
 }
+.footer-columns a {
+  width: 30ch;
+}
+
 .nav-container a{
     color: white;
     margin-bottom: 5px;
@@ -28,7 +32,7 @@ footer{
 }
 footer .title{
     color: white;
-    font-size: 20px;
+    font-size: 0.875em;
 }
 .socials a{
     text-decoration: none;

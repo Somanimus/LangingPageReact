@@ -2,7 +2,7 @@
   "name": "landing-page",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "http://Somanimus.github.io/LandingPagereact" ,
+  "homepage" : "http://Somanimus.github.io/LandingPageReact" ,
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
