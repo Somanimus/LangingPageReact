@@ -17,17 +17,54 @@ const Main = () => {
         <main>
             <section className='headline-section two-third'>
                 <div className='content-box'>
-                    <div className="cb-column">
+                    <div className="cb-column headline-column">
                         <h1>Выгодный и быстрый способ отправлять деньги за границу.</h1>
                         <div className='mid-box'> 
                         <button className='play-button'> <PlayArrowIcon sx={{fontSize: 60}} /></button> <a href="http://" target="_blank" rel="noopener noreferrer">посмотрите как это работает</a>
                         </div>
                         <div className='box-flex headline-undertext'>
-                            <div className='undertext-item'> <p>Более 15 миллионов пользователей</p> <a href="http://" target="_blank" rel="noopener noreferrer">подробнее на Trubspilot</a></div>
+                            <div className='undertext-item'> <p>Более 15 миллионов пользователей</p> <a href="http://" target="_blank" rel="noopener noreferrer">подробнее на Trustpilot</a></div>
                             <div className='undertext-item'> <p>регулируется FCA</p> <a href="http://" target="_blank" rel="noopener noreferrer"> Узнать больше</a></div>
                         </div>
                          </div>
-                    <div className="cb-column empty"></div>
+                    <div className="cb-column calculator-container">
+                        <div className='calculator'>
+                            <div className="money-input">
+                                <div className="input-field">
+                                <label htmlFor="calculator-source">Вы отправляете ровно</label>
+                                <input type="text" placeholder='1 000' id='calculator-source' />
+                                </div>
+                                <div className="currency-toggler">
+                                    <button id='currency-toggle'> KGS</button>
+                                </div>
+                            </div>
+                            <ul className="sequence">
+                                <li><span  className='sequence-icon'>-</span> <span className='sequence-text'>4.895 $</span></li>
+                                <li><span className='sequence-icon'>=</span> <span className='sequence-text'>1000</span><span className='sequence-text' > Конвертируемая сумма</span></li>
+                                <li><span className='sequence-icon'>x</span> <span className='sequence-text'>1.1823</span> <span className='sequence-text'>Гарантированный курс</span> </li>
+
+                            </ul>
+                            <div className="money-input">
+                                 <div className="input-field">
+                                <label htmlFor="calculator-source">Получатель получит </label>
+                                <input type="text" placeholder='1 000' id='calculator-output' />
+                                </div>
+                                <div className="currency-toggler">
+                                    <button id='currency-out-toggle'> KGS</button>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div className='guarantees-box'>
+                            <div className="calc-undertext c-u-left">В сравнении с банком вы экономите: <br /> <strong>36,25 $</strong></div>
+                            <div className="calc-undertext">Поступит: <br /> <strong>понедельник</strong></div>
+                        </div>
+                        <div className='calc-extra-info'>
+                            <button>Сравнить цены</button>
+                            <button>Начать</button>
+                        </div>
+                    </div>
+
                 </div>
             </section>
             <section className='mobile-app-section'>

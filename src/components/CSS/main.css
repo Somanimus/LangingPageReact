@@ -3,7 +3,7 @@
     src: url('/public/fonts/Roboto-Light.ttf');
 }
 .two-third{
-    height: 66vh;
+    height: 35em;
 }
 .descr{
     font-family: 'Roboto Light';
@@ -89,15 +89,15 @@ main{
         font-family: 'Roboto';
 }
 .content-box{
-    width: 60%;
+    width: 80%;
     display: flex;
+    justify-content: space-between;
     margin: auto;
 
 }
 .cb-column{
     width: 50%;
     justify-content: space-around;
-    height: 66vh;
     flex-direction: column;
     align-items: flex-start;
     display: flex;
@@ -141,6 +141,7 @@ width: 23%;
 .cb-column h1{
     font-size: 2em;
     width: 20ch;
+    max-width: 100%;
     text-align: start;
 }
 
@@ -148,7 +149,10 @@ width: 23%;
     font-size:0.85em;
 }
 .undertext-item{
-   width: 25ch; 
+   width: 15ch; 
+}
+.headline-column{
+    width: fit-content;
 }
 svg path{
     color: white;
@@ -158,6 +162,118 @@ svg path{
     justify-content: space-between;
     width: 100%;
 }
+
+/* calculator layout */
+.calculator-container{
+    justify-content: flex-start;
+    align-items: center;
+    width: 35%;
+}
+.calculator{
+    width: 100%;
+    margin-top: 2em;
+    margin-bottom: 1.25em;
+    color: var(--primary);
+}
+.money-input{
+    width: 100%;
+    display: flex;
+    height: 3.5rem;
+    background: white; 
+}
+.input-field > input{
+height: 50%;
+border: none;
+box-sizing: border-box;
+padding-left: 0.5em;
+font-size: 0.95em;
+
+}
+.calc-extra-info{
+    margin-top: 1.25em;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.calc-extra-info > button {
+    width: 48%;
+    height: 3.25em;
+    background: var(--primary-darker);
+    border: none;
+    color: white;
+}
+
+.input-field > label{
+    text-align: start;
+    font-size: 0.75em;
+    box-sizing: border-box;
+    padding-left: 0.5em;
+}
+.currency-toggler  {
+    width: 20%;
+    height: 100%;
+}
+.currency-toggler > button{
+    width: 100%;
+    height: 100%;
+    border-radius: none;
+    border: none;
+    color: white;
+    background: var(--primary-darker);
+}
+.sequence {
+
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    color: white;
+    list-style-type: none;
+    margin-bottom: 1.5em;
+}
+.guarantees-box{
+    width: 100%;
+    display: flex;
+    font-size: 0.8em;
+    justify-content: center;
+}
+.c-u-left{
+    border-right: 1px solid white;
+}
+.calc-undertext{
+    width: 20ch;
+}
+.sequence >  li {
+    width: fit-content;
+    margin-top: 1.25em;
+    display: flex;
+}
+.sequence > li > span {
+    margin-right: 0.895em;
+}
+.sequence-text{
+    min-width: 96px;
+    text-align: start;
+}
+.sequence-icon {
+    display: inline-block;
+    background: var(--primary-darker);
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    padding: 0.25em;
+    text-align: center;
+    margin-right: 0.895em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input-field{
+    display: flex;
+    height: 100%;
+    width: 80%;
+    flex-direction: column;
+}
+
 @media screen and (max-width: 1000px){
     .pic-hall .descr{
         font-size: 14px;
@@ -176,16 +292,26 @@ svg path{
     .mobile-app-section{
         height: fit-content;
     }
-    .content-box{
-        width: 100%;
+    .headline-section{
+        height: fit-content;
+        
     }
+    .content-box{
+        align-items: center;
+    }
+    .headline-column h1{
+        width: 40ch;
+        font-size: 1.5em;
+    }
+    .content-box{
+        width: 75%;
+        flex-direction: column;
+    }
+
     .cb-column h1{
         text-align: center;
     }
-.empty{
-    display: none;
 
-}
 .cb-column{
     width: 100%;
 }
@@ -195,8 +321,11 @@ svg path{
     }  
     .box-flex{
         margin: auto;
-        margin-top: 0;
-        margin-bottom: 0;
+        margin-top: 2.5em;
+        margin-bottom: 1em;
+    }
+    .calc-extra-info{
+        margin-bottom: 2em;
     }
 }
 @media screen and (max-width: 800px) {
@@ -245,6 +374,9 @@ svg path{
  }
 }
 @media screen  and (max-width: 500px){
+    .calculator-container{
+        width: 95%;
+    }
     .content-box{
         width: 100%;
     }
@@ -279,4 +411,22 @@ svg path{
  .getting-started{
     padding: 0;
  }
+.calculator{
+    margin-top: 0.5em;
+}
+}
+@media screen and (max-width: 400px) {
+    .headline-section{
+        height: fit-content;
+    }
+.calc-undertext{
+    font-size: 0.75em;
+    margin: 0;
+}
+.undertext-item{
+    width: 50%;
+    font-size: 0.65em;
+}
+
+    
 }
