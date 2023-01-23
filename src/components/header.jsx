@@ -44,7 +44,7 @@ const Header = () => {
     return (
         <header>
             <nav>
-            <div className="logo"> <a href="http://" target="_blank" rel="noopener noreferrer">MyMia</a> </div>
+            <div className="logo"> <a href="http://" target="_blank" rel="noopener noreferrer"> MyMia </a> </div>
             <ul className='public-nav box-left'>
                 <li>
                     <a href="http://" target="_blank" rel="noopener noreferrer" className='active left-link'>Частный счет</a>
