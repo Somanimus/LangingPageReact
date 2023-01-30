@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import logo from '../pics/logo.svg'
 import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import InstagramIcon from '@mui/icons-material/Instagram';
@@ -10,7 +12,7 @@ const Footer = () => {
             <div className="nav-container">
             <div className="footer-columns">
                 <h3 className="title">Компания и наша команда</h3>
-                <a href="http://" target="_blank" rel="noopener noreferrer">Компания и наша команда</a>
+                <Link to="/our-team">Компания и наша команда</Link>
                 <a href="http://" target="_blank" rel="noopener noreferrer">Новости и блог</a>
                 <a href="http://" target="_blank" rel="noopener noreferrer">Пресса о нас</a>
                 <a href="http://" target="_blank" rel="noopener noreferrer">Вакансии</a>
@@ -46,7 +48,7 @@ const Footer = () => {
             </div>
             </div>
             <div className="copyright">
-                <div className="logo"><a href="http://" target="_blank" rel="noopener noreferrer">MyMia</a></div>
+                <div className="logo"><a href="http://" target="_blank" rel="noopener noreferrer"> <img src={logo} alt="logo" /> MyMia</a></div>
             </div>
         </footer>
    );

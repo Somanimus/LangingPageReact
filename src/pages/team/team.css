@@ -1,0 +1,7 @@
+.team-container{
+    padding: 3em;
+}
+.team-container > * {
+    width: 60ch;
+    margin: auto;
+}
