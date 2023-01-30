@@ -1,4 +1,5 @@
 import React from 'react';
+
 import { Link } from 'react-router-dom';
 import logo from '../pics/logo.svg'
 import FacebookIcon from '@mui/icons-material/Facebook';
@@ -48,7 +49,7 @@ const Footer = () => {
             </div>
             </div>
             <div className="copyright">
-                <div className="logo"><a href="http://" target="_blank" rel="noopener noreferrer"> <img src={logo} alt="logo" /> MyMia</a></div>
+                <div className="logo"><Link to='/'> <img src={logo} alt="logo" /> MyMia</Link></div>
             </div>
         </footer>
    );

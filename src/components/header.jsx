@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import logo from '../pics/logo.svg'
 import CloseIcon from '@mui/icons-material/Close';
 import MenuIcon from '@mui/icons-material/Menu';
@@ -45,7 +46,7 @@ const Header = () => {
     return (
         <header>
             <nav>
-            <div className="logo"> <a href="http://" target="_blank" rel="noopener noreferrer"> <img src={logo} alt="" /> MyMia </a> </div>
+            <div className="logo"> <Link to="/"> <img src={logo} alt="" /> MyMia </Link> </div>
             <ul className='public-nav box-left'>
                 <li>
                     <a href="http://" target="_blank" rel="noopener noreferrer" className='active left-link'>Частный счет</a>
