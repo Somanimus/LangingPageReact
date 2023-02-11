@@ -1,10 +1,7 @@
-version: '3.2'
+version: "3.3"
 services:
-  my-app:
+  app:
+    container_name: landing-page-prod
+    image: landing-page-prod 
     build:
       context: .
-      dockerfile: 'Dockerfile'
-    ports:
-      - '3000:80'
-    volumes:
-      - ./:/frontend
